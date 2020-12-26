@@ -2,7 +2,7 @@ const arr1 = [2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19];
 const arr2 = [2, 1, 4, 3, 9, 6];
 
 function checkArr(arr1, arr2) {
-  const arr1Copy = arr1;
+  const arr1Copy = [...arr1];
   const res = [];
 
   arr2.forEach((el) => {
